@@ -18,4 +18,9 @@ dependencies {
     implementation(libs.ktor.server.netty)
     testImplementation(libs.ktor.server.tests)
     testImplementation(libs.kotlin.test.junit)
+
+    implementation("mysql:mysql-connector-java:8.0.30")
+    implementation("org.ktorm:ktorm-core:3.6.0")
+
+
 }

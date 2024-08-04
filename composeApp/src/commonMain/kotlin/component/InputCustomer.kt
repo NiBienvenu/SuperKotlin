@@ -15,7 +15,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun Input() {
     val value = remember { mutableStateOf("") }
     Column {
-        Text("Autre texte")
+        Text("Autre texte ...")
 
     }
 }

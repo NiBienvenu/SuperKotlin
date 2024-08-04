@@ -24,7 +24,6 @@ fun App() {
         var showContent by remember { mutableStateOf(false) }
         val state  by remember{ mutableStateOf("") }
         Row {
-            TextField( value = state, onValueChange = {}, keyboardActions = KeyboardActions.Default)
             Text("Hello ..", fontSize = 20.sp, fontWeight = FontWeight.Bold)
 
 
